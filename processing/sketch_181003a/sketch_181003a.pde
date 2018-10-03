@@ -5,7 +5,7 @@ import java.util.*;
 File[] files;
 PImage output;
 void settings() {
-  String path = sketchPath("../data/jaffe");
+  String path = sketchPath("../../data/jaffe");
 
   Collection f = FileUtils.listFiles(
     new File(path), 
